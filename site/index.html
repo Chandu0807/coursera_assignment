@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somagani Sai Chandra</title>
+    <style>
+        body {
+            font-family: arial, 'Times New Roman', Times, serif;
+            line-height: 2.0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #062b6b 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+      
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        table {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        form {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        footer {
+            background: #747474;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Somagani Sai Chandra</h1>
+            <nav>
+                <a href="#about">About</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div id="main" class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div id="bio">
+                <img src="https://media.licdn.com/dms/image/D5603AQFGhEtNc_2Zgg/profile-displayphoto-shrink_200_200/0/1714495526455?e=2147483647&v=beta&t=pYDIeabvhrA9On44mIJ7eJkWcWEOyN5US3xD_ADjo9Q" alt="Somagani Sai Chandra">
+                <p><b>Name:</b> Somagani Sai Chandra<br>
+                   <b>Age:</b> 22<br>
+                   <b>Address:</b> Nalgonda, padmavathi colony, 508001, Telangana<br>
+                   <b>Contact:</b> 7995488797<br>
+                   <b>10th School:</b> Narayana High School<br>
+                   <b>CGPA:</b> 9.5<br>
+                   <b>12th College:</b> Narayana Junior College<br>
+                   <b>CGPA:</b> 9.37<br>
+                   <b>B-Tech College:</b> Amrita Vishwa Vidyapeetham<br>
+                   <b>CGPA:</b> 7.74<br>
+                   <b>Hobbies:</b> Cooking, Badminton<br>
+                   <b>Core Skills:</b> C++, Data Structures, DBMS, OOPs</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Institution</th>
+                    <th>GPA/Percentage</th>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td>Narayana High School</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>Narayana Junior College</td>
+                    <td>93.7</td>
+                </tr>
+                <tr>
+                    <td>B-Tech</td>
+                    <td>Amrita Vishwa Vidyapeetham</td>
+                    <td>CGPA: 7.74</td>
+                </tr>
+            </table>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Flight Price Prediction</li>
+                <p> Objective: Flight price prediction using backend as mongo dB and frontend as html and CSS by 
+                    using random forest model. 
+                    <br>Tech stack: Html, CSS, Python, mongo dB </p>
+                <li>Iris Flower Classification</li>
+                <p> iris flower classification is a classic machine learning task that involves categorizing iris flowers 
+                    into distinct species based on their unique measurements. 
+                   <br> tech stack: python </p>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Somagani Sai Chandra</p>
+            <p><a href="https://github.com/Chandu0807">GitHub</a> | <a href="https://www.linkedin.com/in/somagani-sai-chandra-59944a217/">LinkedIn</a></p>
+        </div>
+    </footer>
+</body>
+</html>
