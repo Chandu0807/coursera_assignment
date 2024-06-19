@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/* Section Styles */
+.section {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section .title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
+.section p {
+    margin-top: 40px;
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+    .section {
+        width: 32%;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: 48%;
+    }
+
+    .section:nth-child(3) {
+        width: 100%;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
